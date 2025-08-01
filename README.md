@@ -36,3 +36,22 @@ Example:
 - If the format of the PDF changes, the program fails to work.
 - The module code format must stay consistent for the program to work. 
 - It cannot accurately calculate GPA of students who have had medical leave for some modules.
+
+### Grade and Grade Point
+| **Grade** | **Grade<br>Point** |
+|-----------|--------------------|
+| A+        | 4.0                |
+| A         | 4.0                |
+| A-        | 3.7                |
+| B+        | 3.4                |
+| B         | 3.0                |
+| B-        | 2.7                |
+| C+        | 2.4                |
+| C         | 2.0                |
+| C-        | 1.7                |
+| D         | 1.0                |
+| I-we      | 0.0                |
+| I-ca      | 0.0                |
+| F         | 0.0                |
+
+### Compatible PDF Format
