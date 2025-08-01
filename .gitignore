@@ -2,6 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+output.csv
 
 ### Eclipse ###
 .apt_generated
