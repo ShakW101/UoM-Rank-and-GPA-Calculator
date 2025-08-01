@@ -268,7 +268,7 @@ public class Main {
 
     private static void exportResults(List<Map.Entry<String, List>> list) throws IOException {
         FileWriter outputFile = new FileWriter("output.csv");
-        outputFile.write("Rank, Position in Batch, GPA, Total Credits\n");
+        outputFile.write("Rank, Position in Batch, Index Number, GPA, Total Credits\n");
 
         int pos = 0;
         int x = 0;
