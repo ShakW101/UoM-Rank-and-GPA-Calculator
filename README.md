@@ -55,3 +55,4 @@ Example:
 | F         | 0.0                |
 
 ### Compatible PDF Format
+![Compatiple PDF Format Image](pdfFormatResized.png)
