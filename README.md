@@ -15,3 +15,24 @@ It can then display the results in the command line and export them into a CSV f
 4. You will then be prompted to enter the number of credits for each module you have chosen.
 5. The program will calculate and display the Rank and GPA of the students whose index numbers were in the PDF chosen in the first step.
 6. You may then choose if you need a CSV file exported. The output will be saved to `output.csv` in the root folder.
+
+## Method
+1. The program will use the first PDF to identify the students who will be compared against each other. That is, the students appearing here will be the ones in the final ranking list. 
+2. The program will store those index numbers in memory and will only consider the results of these students in the next PDFs. 
+3. The number of modules each student has done will not matter. Every students' total credits done will be tracked. The final GPA will be calculated based only on that, not the total number of credits of all the modules added to the program.
+
+### Output Format
+The output format in the command line will be  
+`Rank   (Position)      Index-Number        GPA     Total-Credits`  
+  
+Example:  
+`1(  1)      200000Z         4.000       20`     
+`1(  1)       200001Z         4.000       20`  
+`2(  3)       200002Z         3.960       20`  
+`3(  4)       200003Z         3.940       22`     
+
+### Limitations
+- This is usable **ONLY** for students in the University of Moratuwa.  
+- If the format of the PDF changes, the program fails to work.
+- The module code format must stay consistent for the program to work. 
+- It cannot accurately calculate GPA of students who have had medical leave for some modules.
