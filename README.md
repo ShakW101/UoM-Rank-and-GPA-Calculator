@@ -3,7 +3,7 @@ M.S.I. Weerawansa
 In-22 BSc. Eng. (Hons.) Computer Science and Engineering  
 
 ## Description
-This is a simple program that can calculate the Rank and GPA of End-Semester exams of students with respect to their batch
+This is a simple program that can calculate the Rank and GPA of End-Semester exams of students
 studying in the University of Moratuwa, Sri Lanka.  
 It makes use of the `PDFBox` library to read and extract data from Provisional Exam Results PDFs.
 It can then display the results in the command line and export them into a CSV file. 
