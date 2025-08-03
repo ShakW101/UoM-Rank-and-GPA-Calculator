@@ -2,6 +2,8 @@
     author M.S.I. Weerawansa
     04.09.2024
 
+    all rights reserved
+
     functionality improved
     01.08.2025
  */
