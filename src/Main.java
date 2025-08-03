@@ -76,7 +76,7 @@ public class Main {
                     }
                     case "C-" -> {
                         if (i > 0 && indexes.contains(parts[i - 1].strip())) {
-                            resultMap.put(parts[i - 1], 1.5);
+                            resultMap.put(parts[i - 1], 1.7);
                         }
                     }
                     case "D" -> {
